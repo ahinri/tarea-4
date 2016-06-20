@@ -12,7 +12,8 @@ gem 'slack-ruby-bot'
 gem 'celluloid-io'
 gem 'puma'
 gem 'sinatra'
-gem 'dotenv', group: :doc
+gem 'dotenv'
+gem 'google-search', group: :doc
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

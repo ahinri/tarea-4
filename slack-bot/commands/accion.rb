@@ -11,7 +11,6 @@ module SlackBot
         message = result.title + "\n" + result.uri
         send_message client, data.channel, message
       end
-      end
     end
   end
 end
