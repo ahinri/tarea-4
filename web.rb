@@ -3,7 +3,7 @@ require 'sinatra/base'
 module SlackBot
   class Web < Sinatra::Base
     get '/' do
-      'Hola soy afhinrichsen'
+      'Bienvenido a la Tarea 4'
     end
   end
 end
